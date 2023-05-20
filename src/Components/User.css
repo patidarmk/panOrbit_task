@@ -1,0 +1,181 @@
+.profile-container {
+  width: 95vw;
+  display: flex;
+  height: 90vh;
+  /* margin-top: 1rem; */
+  gap: 2rem;
+}
+
+.sidebar {
+  width: 18vw;
+  background-image: linear-gradient(0deg, #6039c8, #4d4ac8 50%, #385bc8);
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 94vh;
+}
+
+.profile-view-container {
+  display: flex;
+}
+
+.devider {
+  width: 100%;
+}
+
+.profile-view {
+  width: 75vw;
+  position: relative;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.profile-header {
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+hr {
+  width: 100%;
+  color: gray;
+  opacity: 0.5;
+}
+
+.sidebar ul {
+  list-style-type: none;
+}
+
+.sidebar li {
+  width: 8rem;
+  padding: 0.5rem;
+  gap: 0.2rem;
+  text-align: left;
+}
+
+.profile-header-img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+.user-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.profile-section {
+  display: flex;
+}
+
+.profile-sub-title {
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: bold;
+}
+
+.profile-title--company {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.profile-section-about {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem 0rem;
+}
+
+.profile-section-address {
+  width: 40vw;
+  display: flex;
+  padding: 2rem 5rem;
+  gap: 1rem;
+}
+
+.profile-img {
+  width: 9rem;
+  border-radius: 50%;
+}
+
+.rows {
+  width: 100%;
+  display: block;
+  margin: 0;
+}
+
+.column {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  font-size: 16px;
+}
+
+.theLabels {
+  width: 40%;
+  float: left;
+  text-align: right;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.theInputs {
+  width: 60%;
+  float: left;
+  text-align: left;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.theLabels-text {
+  width: 15%;
+  float: left;
+  text-align: right;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.theInputs-text {
+  width: 50%;
+  float: left;
+  text-align: left;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.profile-title-address {
+  display: flex;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.address-container {
+  padding-left: 2rem;
+}
+.location {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.location-ids {
+  font-size: 12px;
+}
+
+.box-coming-soon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
